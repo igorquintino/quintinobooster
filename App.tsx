@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
           <a href="#solucao" className="text-slate-600 hover:text-red-600 transition-colors">A Solução</a>
           <a href="#metodo" className="text-slate-600 hover:text-red-600 transition-colors">O Método</a>
           <a href="#garantia" className="text-slate-600 hover:text-red-600 transition-colors">Garantia</a>
-          <a href="https://wa.me/" className="bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-full font-bold transition-all shadow-lg shadow-red-900/10">Garantir Minha Vaga</a>
+          <a href="https://pay.kiwify.com.br/d9puKrg" className="bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-full font-bold transition-all shadow-lg shadow-red-900/10">Garantir Minha Vaga</a>
         </div>
 
         <button className="md:hidden text-slate-900" onClick={() => setIsOpen(!isOpen)}>
@@ -58,7 +58,7 @@ const Navbar: React.FC = () => {
           <a href="#solucao" onClick={() => setIsOpen(false)} className="text-lg font-semibold text-slate-700">A Solução</a>
           <a href="#metodo" onClick={() => setIsOpen(false)} className="text-lg font-semibold text-slate-700">O Método</a>
           <a href="#garantia" onClick={() => setIsOpen(false)} className="text-lg font-semibold text-slate-700">Garantia</a>
-          <a href="https://wa.me/" className="bg-red-600 text-white px-6 py-4 rounded-xl text-center font-bold">Garantir Minha Vaga</a>
+          <a href="https://pay.kiwify.com.br/d9puKrg" className="bg-red-600 text-white px-6 py-4 rounded-xl text-center font-bold">Garantir Minha Vaga</a>
         </div>
       )}
     </nav>
@@ -80,16 +80,16 @@ const Hero: React.FC = () => (
         Acompanhamento prático e individual focado 100% em contratação. Se você não for contratado em 6 meses seguindo o plano, <span className="text-slate-900 font-bold border-b-2 border-red-600">devolvemos 100% do seu investimento.</span>
       </p>
       <div className="flex flex-col md:flex-row items-center justify-center gap-6">
-        <a href="https://wa.me/" className="w-full md:w-auto bg-red-600 hover:bg-red-700 text-white px-12 py-6 rounded-2xl font-black text-xl shadow-2xl shadow-red-200 transition-all flex items-center justify-center gap-2 group">
+        <a href="https://pay.kiwify.com.br/d9puKrg" className="w-full md:w-auto bg-red-600 hover:bg-red-700 text-white px-12 py-6 rounded-2xl font-black text-xl shadow-2xl shadow-red-200 transition-all flex items-center justify-center gap-2 group">
           QUERO MINHA VAGA AGORA <ArrowRight className="group-hover:translate-x-1 transition-transform" />
         </a>
         <div className="flex items-center gap-4 text-sm text-slate-500 font-semibold">
           <div className="flex -space-x-3">
             {[1,2,3,4].map(i => (
-              <img key={i} src={`https://i.pravatar.cc/150?u=${i+10}`} className="w-10 h-10 rounded-full border-2 border-white" alt="Student" />
+              <img key={i} src={`blob:https://imgur.com/9d7dfc5d-926b-405a-8db2-b4a63b247136=${i+10}`} className="w-10 h-10 rounded-full border-2 border-white" alt="Student" />
             ))}
           </div>
-          <span><span className="text-red-600 font-black">+200</span> alunos já contratados</span>
+          <span><span className="text-red-600 font-black">+50</span> alunos já contratados</span>
         </div>
       </div>
     </div>
@@ -375,15 +375,15 @@ const Footer: React.FC = () => (
         </div>
         
         <div className="flex flex-col md:flex-row items-center gap-10 font-bold uppercase text-xs tracking-[0.2em] text-slate-500">
-          <a href="#" className="hover:text-red-600 transition-colors">Termos de Uso</a>
-          <a href="#" className="hover:text-red-600 transition-colors">Políticas</a>
-          <a href="#" className="hover:text-red-600 transition-colors">Instagram</a>
+          <a href="#" className="hover:text-red-600 transition-colors"></a>
+          <a href="#" className="hover:text-red-600 transition-colors"></a>
+          <a href="#" className="hover:text-red-600 transition-colors"></a>
         </div>
       </div>
       
       <div className="mt-16 pt-8 border-t border-slate-200 text-center">
         <p className="text-slate-400 text-xs font-bold uppercase tracking-widest">
-          © 2024 Quintino Booster. Todos os direitos reservados.
+          © 2026 Quintino Booster. Todos os direitos reservados.
         </p>
       </div>
     </div>
@@ -408,7 +408,7 @@ const App: React.FC = () => {
 
       {/* Persistent Floating Button for Mobile */}
       <div className="md:hidden fixed bottom-6 left-6 right-6 z-40">
-        <a href="https://wa.me/" className="bg-red-600 text-white w-full py-5 rounded-2xl font-black text-lg flex items-center justify-center gap-3 shadow-2xl border-2 border-white/20 uppercase">
+        <a href="https://pay.kiwify.com.br/d9puKrg" className="bg-red-600 text-white w-full py-5 rounded-2xl font-black text-lg flex items-center justify-center gap-3 shadow-2xl border-2 border-white/20 uppercase">
           GARANTIR MINHA VAGA <ArrowRight size={20} />
         </a>
       </div>
