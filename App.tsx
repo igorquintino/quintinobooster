@@ -169,7 +169,7 @@ const Hero: React.FC = () => {
               ))}
             </div>
             <span>
-              <span className="text-red-600 font-black">+50</span> alunos já contratados
+              <span className="text-red-600 font-black">+100</span> alunos já contratados
             </span>
           </div>
         </div>
@@ -261,7 +261,7 @@ const Solution: React.FC = () => (
           </div>
 
           <a
-            href="https://wa.me/"
+            href="https://pay.kiwify.com.br/uPJSXre"
             className="inline-flex items-center gap-3 text-red-600 font-black text-xl hover:text-red-500 transition-colors uppercase tracking-tight"
           >
             Descobrir o método individual <ArrowRight size={24} />
@@ -545,7 +545,7 @@ const FinalCTA: React.FC = () => (
 
       <div className="flex flex-col items-center gap-8">
         <a
-          href="https://wa.me/"
+          href="https://pay.kiwify.com.br/uPJSXre"
           className="w-full md:w-auto bg-red-600 hover:bg-red-700 text-white px-20 py-10 rounded-full font-black text-2xl shadow-[0_25px_50px_-12px_rgba(220,38,38,0.5)] transition-all uppercase tracking-tighter transform hover:scale-105"
         >
           QUERO MINHA VAGA NO BOOSTER AGORA
