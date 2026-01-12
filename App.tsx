@@ -121,10 +121,10 @@ const Hero: React.FC = () => {
   // Troque esses URLs pelos seus reais. Se estiver usando imagens locais:
   // const studentAvatars = ["/images/alunos/1.jpg", "/images/alunos/2.jpg", "/images/alunos/3.jpg", "/images/alunos/4.jpg"];
   const studentAvatars = [
-    'https://i.pravatar.cc/80?img=11',
-    'https://i.pravatar.cc/80?img=12',
-    'https://i.pravatar.cc/80?img=13',
-    'https://i.pravatar.cc/80?img=14',
+    'https://i.imgur.com/L4ZgPo6.jpeg',
+    'https://i.imgur.com/aamuEQw.jpeg',
+    'https://i.imgur.com/09q9RQs.jpeg',
+    'https://i.imgur.com/UeHUWCI.jpeg',
   ];
 
   return (
@@ -442,19 +442,19 @@ const Testimonials: React.FC = () => (
           name: 'Lucas Rocha',
           role: 'Frontend na Stone',
           text: 'Eu estava há 1 ano batendo cabeça sozinho. Com o Quintino, em 3 meses mudei meu perfil e as vagas começaram a aparecer sozinhas.',
-          img: 'https://i.pravatar.cc/150?u=lucas2',
+          img: 'https://i.imgur.com/pOdTpxe.jpeg',
         },
         {
           name: 'Mariana Costa',
           role: 'Dev Jr na Nubank',
           text: 'Ter alguém que já trilhou o caminho tirando suas dúvidas é outro nível. O investimento se pagou logo no primeiro salário.',
-          img: 'https://i.pravatar.cc/150?u=mari2',
+          img: 'https://i.imgur.com/x8DRkT9.jpeg',
         },
         {
           name: 'Gabriel Sampaio',
           role: 'Fullstack na XP Inc',
           text: 'As simulações técnicas me deram a calma que eu precisava. Entrei no processo seletivo sabendo exatamente o que o tech lead queria ouvir.',
-          img: 'https://i.pravatar.cc/150?u=gabriel2',
+          img: 'https://i.imgur.com/6XApMDX.jpeg',
         },
       ].map((item, idx) => (
         <div
